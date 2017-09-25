@@ -7,8 +7,18 @@
   cd ~/dotfiles
   ```
 
-1. Run the install script:
+2. Run the install script:
 
   ```
   sh ./install.sh
+  ```
+
+3. Run the setup script:
+  ```
+  sh ./setup.sh
+  ```
+
+4. Change your shell
+  ```
+  chsh -s /bin/zsh
   ```
