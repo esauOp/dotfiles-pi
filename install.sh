@@ -19,9 +19,6 @@ sudo apt-get -y install libgtk2.0-dev
 sudo apt-get -y install libatlas-base-dev gfortran
 
 
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-# vim +BundleInstall +qall
-
 # Install Python related modules.
 sudo pip install --upgrade pip
 sudo pip install -r requirements.txt
