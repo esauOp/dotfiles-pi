@@ -6,7 +6,7 @@ ln -sf ~/dotfiles/vim ~/.vim
 ln -sf ~/dotfiles/vim/vimrc ~/.vimrc
 
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-# vim +BundleInstall +qall
+vim +BundleInstall +qall
 
 ln -sf ~/dotfiles/dircolors ~/.dircolors
 
