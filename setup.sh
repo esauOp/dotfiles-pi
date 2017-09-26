@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Use my standard vim bindings, configurating and addons.
-rm -R .vim
+rm -R ~/.vim
 ln -sf ~/dotfiles/vim ~/.vim
 ln -sf ~/dotfiles/vim/vimrc ~/.vimrc
 
