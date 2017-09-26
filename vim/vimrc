@@ -11,6 +11,9 @@ set hidden
 
 let mapleader=","
 
+" === Color Theme ===
+let g:molokai_original = 1
+
 " === Init Vundle ===
 "
 " Loads all plugins specified in ~/.vim/vundle.vim
@@ -33,3 +36,5 @@ set wildignore+=vendor/cache/**
 set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
+
+let g:molokai_original = 1
