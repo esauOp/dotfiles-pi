@@ -12,7 +12,9 @@ set hidden
 let mapleader=","
 
 " === Color Theme ===
-let g:molokai_original = 1
+syntax enable
+set background=dark
+colorscheme molokai
 
 " === Init Vundle ===
 "
@@ -37,4 +39,4 @@ set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 
-let g:molokai_original = 1
+map <C-n> :NERDTreeToggle<CR>

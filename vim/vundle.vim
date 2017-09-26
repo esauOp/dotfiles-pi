@@ -8,8 +8,10 @@ call vundle#rc()
 " Let Vundle manage Vundle (required).
 Bundle 'gmarik/vundle'
 
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
+
+" 
+Bundle 'airblade/vim-gitgutter'
 
 " Displaying ANSI colours inside VIM.
 Bundle 'vim-scripts/AnsiEsc.vim.git'
