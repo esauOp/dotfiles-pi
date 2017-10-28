@@ -12,6 +12,7 @@ sudo apt-get -y install xclip
 sudo apt-get -y install build-essential
 sudo apt-get -y install cmake
 sudo apt-get -y install pkg-config
+sudo apt-get -y install silversearcher-ag
 
 # All necessary OpenCV dependencies:
 sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libx264-dev libv4l-dev
